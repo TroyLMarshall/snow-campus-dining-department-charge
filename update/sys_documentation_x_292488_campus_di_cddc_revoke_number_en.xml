@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="number" label="Number" language="en" table="x_292488_campus_di_cddc_revoke">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <help/>
+            <hint/>
+            <label>Number</label>
+            <language>en</language>
+            <name>x_292488_campus_di_cddc_revoke</name>
+            <plural>Numbers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-03-27 19:00:15</sys_created_on>
+            <sys_id>c5a9edc8dba03300226d146139961958</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Number</sys_name>
+            <sys_package display_value="Campus Dining Department Charge" source="x_292488_campus_di">9c54ec97db403300226d1461399619b6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Campus Dining Department Charge">9c54ec97db403300226d1461399619b6</sys_scope>
+            <sys_update_name>sys_documentation_x_292488_campus_di_cddc_revoke_number_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-03-27 19:00:15</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

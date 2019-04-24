@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="cddc_revoke" max_length="40" name="x_292488_campus_di_cddc_revoke" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;var gr = new GlideRecord('sys_user');&#13;&#10;&#9;gr.get(gs.getUserID());&#13;&#10;&#9;return gr.email;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Contact email" max_length="255" name="contact_email" read_only="true" type="string" virtual="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;var gr = new GlideRecord('sys_user');&#13;&#10;&#9;gr.get(gs.getUserID());&#13;&#10;&#9;return gr.phone;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Contact phone" max_length="40" name="contact_phone" read_only="true" type="string" virtual="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;var gr = new GlideRecord('sys_user');&#13;&#10;&#9;gr.get(gs.getUserID());&#13;&#10;&#9;return gr.department;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Contact work group" max_length="32" name="contact_work_group" read_only="true" reference="cmn_department" type="reference" virtual="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return new GlideDate();  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Date submitted" max_length="40" name="date_submitted" read_only="true" type="glide_date" virtual="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;var gr = new GlideRecord('sys_user');&#13;&#10;&#9;gr.get(gs.getUser().getRecord.getValue('manager'));&#13;&#10;&#9;&#13;&#10;&#9;&#13;&#10;&#9;return gr;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Manager" max_length="255" name="manager" read_only="true" reference="sys_user" type="string" virtual="true"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;var user = gs.getUserID();&#13;&#10;&#9;return user;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Requested by" max_length="32" name="requested_by" read_only="true" reference="sys_user" type="reference" virtual="true"/>
+        <index name="index">
+            <element name="requested_by"/>
+        </index>
+        <index name="index2">
+            <element name="contact_work_group"/>
+        </index>
+    </element>
+</database>

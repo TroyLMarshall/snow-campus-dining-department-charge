@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Campus Dining Department Charge">34a9edc8dba03300226d146139961902</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint>Remove Campus Dining Department Charge privilege from an individual's ID card</hint>
+        <homepage/>
+        <image/>
+        <link_type>NEW</link_type>
+        <map_page/>
+        <mobile_title>cddc_revokes</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_292488_campus_di_cddc_revoke</name>
+        <order>500</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_292488_campus_di.cddc_revoke_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-27 19:00:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3ca9edc8dba03300226d146139961904</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Remove Privilege</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Campus Dining Department Charge" source="x_292488_campus_di">9c54ec97db403300226d1461399619b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Campus Dining Department Charge">9c54ec97db403300226d1461399619b6</sys_scope>
+        <sys_update_name>sys_app_module_3ca9edc8dba03300226d146139961904</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-27 19:02:30</sys_updated_on>
+        <timeline_page/>
+        <title>Remove Privilege</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>
